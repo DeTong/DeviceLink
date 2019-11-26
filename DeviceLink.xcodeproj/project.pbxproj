@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13B94FC0238D15A300F8AA06 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B94FBF238D15A300F8AA06 /* 111.png */; };
 		13C9269D238BB1E900F84883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9269C238BB1E900F84883 /* AppDelegate.m */; };
 		13C926A0238BB1E900F84883 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9269F238BB1E900F84883 /* SceneDelegate.m */; };
 		13C926A3238BB1E900F84883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C926A2238BB1E900F84883 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13B94FBF238D15A300F8AA06 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		13C92698238BB1E900F84883 /* DeviceLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C9269B238BB1E900F84883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13C9269C238BB1E900F84883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		13C9269A238BB1E900F84883 /* DeviceLink */ = {
 			isa = PBXGroup;
 			children = (
+				13B94FBF238D15A300F8AA06 /* 111.png */,
 				13C9269B238BB1E900F84883 /* AppDelegate.h */,
 				13C9269C238BB1E900F84883 /* AppDelegate.m */,
 				13C9269E238BB1E900F84883 /* SceneDelegate.h */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C926AB238BB1F100F84883 /* LaunchScreen.storyboard in Resources */,
+				13B94FC0238D15A300F8AA06 /* 111.png in Resources */,
 				13C926A8238BB1F100F84883 /* Assets.xcassets in Resources */,
 				13C926A6238BB1EA00F84883 /* Main.storyboard in Resources */,
 			);
@@ -290,14 +294,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WD49PX552;
 				INFOPLIST_FILE = DeviceLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DeTong.DeviceLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -306,14 +313,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WD49PX552;
 				INFOPLIST_FILE = DeviceLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DeTong.DeviceLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
